@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CodeChallenge 2024</title>
+    <link rel="stylesheet" href="pendaftaran.css">
+</head>
+<body>
+    <header>
+        <h1>CodeChallenge 2024</h1>
+        <nav>
+            <ul>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li> 
+                        <li><a href="pendaftaran.html">Pendaftaran</a></li> 
+                        <li><a href="faq.html">FAQ</a></li> 
+                    </ul>
+                </nav>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-section">
+        <h2>Form Pendaftaran</h2>
+        <form>
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div class="form-group">
+                <label for="nisn">NISN:</label>
+                <input type="text" id="nisn" name="nisn" required>
+            </div>
+            <div class="form-group">
+                <label for="asal_sekolah">Asal Sekolah:</label>
+                <select id="asal_sekolah" name="asal_sekolah" required>
+                    <option value="">Pilih Sekolah</option>
+                    <option value="sekolah1">Sekolah 1</option>
+                    <option value="sekolah2">Sekolah 2</option>
+                    <option value="sekolah3">Sekolah 3</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="kelas">Kelas:</label>
+                <input type="text" id="kelas" name="kelas" required>
+            </div>
+            <div class="form-group">
+                <label for="no_hp">No. HP:</label>
+                <input type="tel" id="no_hp" name="no_hp" required>
+            </div>
+            <div class="form-group">
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="alamat_rumah">Alamat Rumah:</label>
+                <textarea id="alamat_rumah" name="alamat_rumah" required></textarea>
+            </div>
+            <button type="submit">Daftar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright 2024</p>
+    </footer>
+</body>
+</html>
